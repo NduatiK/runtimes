@@ -75,7 +75,7 @@ defmodule Runtimes do
       File.mkdir_p!("_build")
 
       Runtimes.run(
-        "git clone #{Runtimes.otp_source()} _build/otp && cd _build/otp
+        "git clone #{Runtimes.otp_source()} _build/otp && cd _build/otp"
       )
     end
   end
